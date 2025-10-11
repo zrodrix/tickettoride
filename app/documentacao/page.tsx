@@ -64,9 +64,6 @@ export default function DocumentacaoPage() {
               </li>
               <li>
                 <strong>backend/app/main.py:</strong> Exemplo de uso do sistema
-              </li>
-
-              <li>
                 <strong>backend/README.md:</strong> Documentação detalhada do backend
               </li>
             </ul>

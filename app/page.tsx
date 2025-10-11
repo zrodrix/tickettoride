@@ -34,36 +34,9 @@ export default function Page() {
             </a>
           </div>
 
-          <div className="mt-16 p-6 bg-white rounded-lg shadow-lg">
-            <h2 className="text-2xl font-bold mb-4">Estrutura do Projeto</h2>
-            <div className="grid md:grid-cols-3 gap-4 text-left">
-              <div>
-                <h3 className="font-semibold mb-2">Classes Principais</h3>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Jogo</li>
-                  <li>• Jogador</li>
-                  <li>• Tabuleiro</li>
-                  <li>• Placar</li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-semibold mb-2">Gerenciadores</h3>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• GerenciadorDeTurnos</li>
-                  <li>• GerenciadorDeBaralho</li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-semibold mb-2">Componentes</h3>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Carta / CartaVagao</li>
-                  <li>• BilheteDestino</li>
-                  <li>• Rota / Cidade</li>
-                  <li>• Mao / Baralho</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          
+
+
         </div>
       </div>
     </div>
