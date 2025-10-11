@@ -9,26 +9,13 @@ export default function Page() {
           <div className="grid md:grid-cols-2 gap-6 mb-12">
             {/* Backend Card */}
             <div className="bg-white rounded-lg shadow-lg p-6">
-              <h3 className="text-2xl font-bold mb-2">Backend Python</h3>
-              <p className="text-gray-600 mb-4">Sistema completo implementado em Python</p>
-              <ul className="text-left space-y-2 text-sm text-gray-600">
-                <li>✓ Todas as classes do diagrama</li>
-                <li>✓ Gerenciamento de turnos</li>
-                <li>✓ Sistema de pontuação</li>
-                <li>✓ Baralhos e cartas</li>
-              </ul>
+
             </div>
 
             {/* Frontend Card */}
             <div className="bg-white rounded-lg shadow-lg p-6">
-              <h3 className="text-2xl font-bold mb-2">Frontend React</h3>
-              <p className="text-gray-600 mb-4">Interface interativa com React</p>
-              <ul className="text-left space-y-2 text-sm text-gray-600">
-                <li>✓ Tabuleiro visual</li>
-                <li>✓ Painel de jogadores</li>
-                <li>✓ Gerenciador de turnos</li>
-                <li>✓ Sistema de rotas</li>
-              </ul>
+
+
             </div>
           </div>
 
