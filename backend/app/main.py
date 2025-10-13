@@ -7,6 +7,8 @@ from models.baralho import Baralho
 from models.carta_vagao import CartaVagao
 from models.gerenciador_de_baralho import GerenciadorDeBaralho
 
+##teste de alteracao git EXCLUIR DPS
+
 def exemplo():
     """Exemplo de uso do sistema Ticket to Ride"""
     
