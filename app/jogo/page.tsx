@@ -1,5 +1,5 @@
 "use client"
-
+import Board from '@/components/Board';
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 
