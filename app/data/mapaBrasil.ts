@@ -28,21 +28,21 @@ export interface Rota {
 }
 
 export const CIDADES: Cidade[] = [
-  { id: 'PORTO_ALEGRE', nome: 'Porto Alegre', x: 200, y: 600 },
-  { id: 'CURITIBA', nome: 'Curitiba', x: 250, y: 500 },
-  { id: 'SAO_PAULO', nome: 'São Paulo', x: 300, y: 450 },
-  { id: 'RIO_DE_JANEIRO', nome: 'Rio de Janeiro', x: 400, y: 450 },
-  { id: 'BELO_HORIZONTE', nome: 'Belo Horizonte', x: 400, y: 380 },
-  { id: 'VITORIA', nome: 'Vitória', x: 480, y: 400 },
-  { id: 'BRASILIA', nome: 'Brasília', x: 350, y: 300 },
-  { id: 'GOIANIA', nome: 'Goiânia', x: 320, y: 330 },
-  { id: 'CAMPO_GRANDE', nome: 'Campo Grande', x: 220, y: 400 },
-  { id: 'CUIABA', nome: 'Cuiabá', x: 200, y: 300 },
-  { id: 'SALVADOR', nome: 'Salvador', x: 480, y: 250 },
-  { id: 'RECIFE', nome: 'Recife', x: 550, y: 180 },
-  { id: 'FORTALEZA', nome: 'Fortaleza', x: 520, y: 120 },
-  { id: 'BELEM', nome: 'Belém', x: 350, y: 80 },
-  { id: 'MANAUS', nome: 'Manaus', x: 150, y: 100 },
+  { id: 'PORTO_ALEGRE', nome: 'Porto Alegre', x: 380, y: 630 },
+  { id: 'CURITIBA', nome: 'Curitiba', x: 420, y: 550 },
+  { id: 'SAO_PAULO', nome: 'São Paulo', x: 465, y: 515 },
+  { id: 'RIO_DE_JANEIRO', nome: 'Rio de Janeiro', x: 520, y: 500 },
+  { id: 'BELO_HORIZONTE', nome: 'Belo Horizonte', x: 500, y: 450 },
+  { id: 'VITORIA', nome: 'Vitória', x: 570, y: 450 },
+  { id: 'BRASILIA', nome: 'Brasília', x: 450, y: 380 },
+  //{ id: 'GOIANIA', nome: 'Goiânia', x: 330, y: 410 },
+  { id: 'CAMPO_GRANDE', nome: 'Campo Grande', x: 340, y: 460 },
+  { id: 'CUIABA', nome: 'Cuiabá', x: 290, y: 380 },
+  { id: 'SALVADOR', nome: 'Salvador', x: 600, y: 330 },
+  { id: 'RECIFE', nome: 'Recife', x: 660, y: 240 },
+  { id: 'FORTALEZA', nome: 'Fortaleza', x: 590, y: 168 },
+  { id: 'BELEM', nome: 'Belém', x: 400, y: 140 },
+  { id: 'MANAUS', nome: 'Manaus', x: 235, y: 160 },
 ];
 
 export const ROTAS: Rota[] = [

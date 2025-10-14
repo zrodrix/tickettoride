@@ -7,6 +7,8 @@ export default function Board() {
   const [rotaSelecionada, setRotaSelecionada] = useState<Rota | null>(null);
   const [cidadeHover, setCidadeHover] = useState<string | null>(null);
 
+
+  
   const encontrarCidade = (id: string): Cidade | undefined => {
     return CIDADES.find(c => c.id === id);
   };
@@ -45,7 +47,17 @@ export default function Board() {
             className="w-full h-auto border-2 border-gray-300 rounded-lg bg-sky-100" 
             viewBox="0 0 700 700"
           >
-            <rect width="700" height="700" fill="#E0F2FE" />
+            {/* Imagem de fundo do mapa do Brasil */}
+              <image
+                href="/images/mapa-brasil.png"
+                x="0"
+                y="0"
+                width="700"
+                height="700"
+                opacity="0.8"
+                preserveAspectRatio="xMidYMid slice"
+              />
+              <rect width="700" height="700" fill="rgba(224, 242, 254, 0.2)" />
 
             {ROTAS.map((rota) => {
               const cidadeA = encontrarCidade(rota.cidadeA);
@@ -72,7 +84,7 @@ export default function Board() {
                   <circle
                     cx={pontoMedio.x}
                     cy={pontoMedio.y}
-                    r="15"
+                    r="10"
                     fill="white"
                     stroke={CORES[rota.cor]}
                     strokeWidth="2"
@@ -104,7 +116,7 @@ export default function Board() {
                 <circle
                   cx={cidade.x}
                   cy={cidade.y}
-                  r={cidadeHover === cidade.id ? "12" : "10"}
+                  r={cidadeHover === cidade.id ? "8" : "6"}
                   fill="#1E40AF"
                   stroke="white"
                   strokeWidth="2"
