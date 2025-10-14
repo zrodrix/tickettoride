@@ -116,6 +116,9 @@ export default function JogoPage() {
             </div>
           </div>
 
+          {/* Mapa do Brasil */}
+          <Board />
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {jogadores.map((jogador, index) => (
               <div
