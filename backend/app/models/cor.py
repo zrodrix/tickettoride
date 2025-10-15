@@ -7,3 +7,5 @@ class Cor(Enum):
     AMARELO = "amarelo"
     PRETO = "preto"
     LARANJA = "laranja"
+    ROXO = "roxo"          
+    BRANCO = "branco"      
