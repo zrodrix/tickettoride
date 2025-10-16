@@ -11,7 +11,7 @@ class Jogo:
     gerenciadorDeTurnos: GerenciadorDeTurnos = field(default_factory=GerenciadorDeTurnos)
     gerenciadorDeBaralho: Optional[GerenciadorDeBaralho] = None
     placar: Optional[Placar] = None
-    tabuleiro: Tabuleiro = field(default_factory=Tabuleiro)
+    tabuleiro: Tabuleiro = field(default_factory=Tabuleiro) #esta classe é necessaria visto ter o mapaBrasil.ts?d
     iniciado: bool = False
     finalizado: bool = False
 

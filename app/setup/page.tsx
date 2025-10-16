@@ -28,20 +28,20 @@ export default function SetupPage() {
   }
 
   const iniciarJogo = () => {
-    const todosPreenchidos = jogadores.every((j) => j.nome.trim() !== "")
-    if (!todosPreenchidos) {
-      alert("Por favor, preencha o nome de todos os jogadores")
-      return
-    }
-
-    if (jogadores.length < 2) {
-      alert("É necessário pelo menos 2 jogadores")
-      return
-    }
-
-    localStorage.setItem("jogadores", JSON.stringify(jogadores))
-    router.push("/jogo")
+  const todosPreenchidos = jogadores.every((j) => j.nome.trim() !== "")
+  if (!todosPreenchidos) {
+    alert("Por favor, preencha o nome de todos os jogadores")
+    return
   }
+
+  if (jogadores.length < 2) {
+    alert("É necessário pelo menos 2 jogadores")
+    return
+  }
+
+  localStorage.setItem("jogadores", JSON.stringify(jogadores))
+  router.push("/bilhetes-destino") // Mudança aqui!
+}
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-12">
